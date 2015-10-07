@@ -485,8 +485,8 @@ class MangaProviderFactory {
 
     static private function getUsageMessage() {
         $usageMessage = 'Usage: php ' . $_SERVER['PHP_SELF'] . ' -s <name> -m <name> [-f <number>] [-t <number>] [-d <directory>] [-r]' . "\n";
-        $usageMessage .= '  php ' . $_SERVER['PHP_SELF'] . ' -m bleach-manga' . "\n";
-        $usageMessage .= '  php ' . $_SERVER['PHP_SELF'] . ' -m bleach-manga -f 300 -t 320 -d "~/bleach-archive" -r' . "\n";
+        $usageMessage .= '  php ' . $_SERVER['PHP_SELF'] . ' -s Mangafreak -m bleach' . "\n";
+        $usageMessage .= '  php ' . $_SERVER['PHP_SELF'] . ' -s Mangafreak -m bleach -f 300 -t 320 -d "~/bleach-archive" -r' . "\n";
         $usageMessage .= "\n";
         $usageMessage .= ' -s <name>        Manga site name. See the supported sites list below' . "\n";
         $usageMessage .= ' -m <name>        Manga name as appears in manga site url' . "\n";
