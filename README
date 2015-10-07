@@ -1,5 +1,3 @@
-Please select a manga site from the below list
-
 Usage: php ./getmanga.php -s <name> -m <name> [-f <number>] [-t <number>] [-d <directory>] [-r]
   php ./getmanga.php -s Mangafreak -m bleach
   php ./getmanga.php -s Mangafreak -m bleach -f 300 -t 320 -d "~/bleach-archive" -r
