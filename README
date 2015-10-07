@@ -1,0 +1,22 @@
+Please select a manga site from the below list
+
+Usage: php ./getmanga.php -s <name> -m <name> [-f <number>] [-t <number>] [-d <directory>] [-r]
+  php ./getmanga.php -s Mangafreak -m bleach
+  php ./getmanga.php -s Mangafreak -m bleach -f 300 -t 320 -d "~/bleach-archive" -r
+
+ -s <name>        Manga site name. See the supported sites list below
+ -m <name>        Manga name as appears in manga site url
+ -f <number>      Manga chapter number which you want to download
+ -t <number>      Last manga chapter number to download. Lets you choose a range of chapters to download.
+                  The range starts from "-f". Defaults to the value of "-f" meaning only one chapter is to be downloaded
+ -d <directory>   Directory where the manga is going to be saved. Defaults to current directory
+ -r               Rewrite pages found locally or not. Defaults to "not rewrite"
+
+Supported manga sites:
+ Mangakaka
+ Mangastream
+ Mangafox
+ Mangafreak
+ Mangapanda
+
+
